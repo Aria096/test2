@@ -1,0 +1,106 @@
+/*
+    Examen semaine 9
+    Ariane Duguay
+    582-1W1-MA gr.004
+*/
+/*Règles @*/
+@font-face{
+    font-family:"SpaceAge";
+    src: url("../polices/space\ age.ttf");
+}
+
+/*Remise à zero css*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/*Les conteneurs*/
+header, div, footer{
+    width: 890px;
+    margin: 0 auto;
+}
+header{
+    font-family: "SpaceAge";
+    background: url("../images/points.png");
+    border-radius: 150px;
+    outline: 5px solid teal;
+    display:flex;
+    height:175px ;
+}
+footer{
+    background: url("../images/points.png");
+    border-radius: 150px;
+    outline: 5px solid teal;
+    height:130px;
+}
+article{
+    width: 50%;
+    display:inline-block;
+    vertical-align: top;
+    padding: 20px;
+    text-align: left;
+}
+div{
+    background: url("../images/points.png");
+    border-radius: 100px;
+    outline: 5px solid teal;
+    height: 275px;
+    font-family:Helvetica;
+    padding-left:35px;
+    padding-top: 12px;
+    padding-bottom: 25px;
+}
+/*Textes*/
+p{
+    margin-top: 15px;
+    margin-right:30px;
+    font-size: 1em;
+}
+h1{
+    font-size: 3em;
+}
+
+/*h1::first-letter{
+    /*B majuscule plus grand
+}*/
+
+/*Menu nav*/
+nav{
+    width: 400px;
+    display:inline-block;
+    padding:15px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color:teal;
+}
+
+/*Liste*/
+ol{
+    list-style-type:disc;
+    margin-left:150px;
+    margin-top:10px;
+}
+
+/*Images*/
+#alien{
+    display: block;
+    margin-top: 10px;
+    height:145px;
+    margin-left:20px;
+    margin-top:10px;
+}
+#monstres1,#monstre2{
+    margin-top: 15px;
+    margin-left:5px;
+}
